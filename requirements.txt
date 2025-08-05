@@ -1,5 +1,7 @@
-setuptools
-wheel
 fastapi
-uvicorn
-gunicorn
+uvicorn[standard]
+sqlalchemy
+asyncpg
+aiosqlite
+python-jose
+passlib[bcrypt]
